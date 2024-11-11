@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<header th:fragment="header">
+    <nav>
+        <div>
+            <div>
+                <a th:href="@{'/films'}"><h1><span>WATCHA</span> PEDIA</h1></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a th:href="@{'/films'}">영화</a></li>
+                    <li>시리즈</li>
+                    <li>책</li>
+                    <li>웹툰</li>
+                </ul>
+            </div>
+        </div>
+        <div id="form">
+            <div id="form-box">
+                <form id="search-form" action="/films/search" method="get">
+                    <input id="search-input" type="search" name="title" placeholder="콘텐츠, 인물, 위치, 유저를 검색해보세요" required>
+                    <button class="clear-button" type="button" style="display: none">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                    <button type="submit" style="display: none;">검색</button>
+                </form>
+                <div id="lr-form">
+                    <div th:if="${session.user != null}">
+                        <a th:href="@{/users/logout}">로그아웃</a>
+                        <a th:href="@{/users/myPage}">마이페이지</a>
+                    </div>
+                    <div th:if="${session.user == null}">
+                        <a th:href="@{/users/login}">로그인</a>
+                        <a th:href="@{/users/register}">회원가입</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+</html>
