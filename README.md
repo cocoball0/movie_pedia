@@ -167,3 +167,6 @@ KOSTA - 1차 팀 프로젝트
 -  엔티티 클래스 대신 DTO 객체를 사용하여 데이터를 반환하도록 수정했습니다.
 <br/>
 
+# 참고자료
+ppt : https://www.miricanvas.com/v/13n2jqg
+notion : https://www.notion.so/1-69371a9ec7d2464dadd9e7b598e89a36
