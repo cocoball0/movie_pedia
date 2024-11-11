@@ -126,10 +126,11 @@ KOSTA - 1차 팀 프로젝트
 
 ### 회원기능
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d8036d6b-4634-484b-b956-1ec146f1506f" style="display: block; margin: auto; border: 2px solid #000;">
-  <img src="https://github.com/user-attachments/assets/349e2623-b590-4a9f-a83b-2de555d6afc8" style="display: block; margin: auto; border: 2px solid #000;">
-  <img src="https://github.com/user-attachments/assets/90449483-69f4-4c42-8c72-0b25c5c7b1ea" style="display: block; margin: auto; border: 2px solid #000;">
+  <img src="https://github.com/user-attachments/assets/d8036d6b-4634-484b-b956-1ec146f1506f" style="display: block; margin: auto; border: 2px solid #000; width: 200px;">
+  <img src="https://github.com/user-attachments/assets/349e2623-b590-4a9f-a83b-2de555d6afc8" style="display: block; margin: auto; border: 2px solid #000; width: 200px;">
+  <img src="https://github.com/user-attachments/assets/90449483-69f4-4c42-8c72-0b25c5c7b1ea" style="display: block; margin: auto; border: 2px solid #000; width: 200px;">
 </p>
+
 <br/>
 
 ### 평점 및 찜하기
